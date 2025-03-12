@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Doori_front
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 프로젝트 소개
+Doori_front는 독립영화 예매 서비스를 제공하는 Doori 프로젝트의 프런트엔드 레포지토리입니다. 
+사용자는 독립영화를 검색하고 예매할 수 있으며, 영화에 대한 평점 및 리뷰를 남길 수 있으며 볼 수 있습니다. 
 
-## Available Scripts
+## 📅 개발 기간
+- **개발 시작**: 2024.11.13
+- **개발 종료**: 2024.11.25
 
-In the project directory, you can run:
+## 🛠 기술 스택
+- **프레임워크**: React
+- **상태 관리**: Redux Toolkit
+- **스타일링**: Bootstrap
+- **빌드 툴**: Vite
+- **API 연동**: Axios
 
-### `npm start`
+## 📂 주요 파일
+- `App.js` : 루트 컴포넌트
+- `main.js` : 애플리케이션 진입점
+- `store/` : Redux 상태 관리 관련 코드
+- `pages/` : 주요 페이지 컴포넌트
+- `components/` : 재사용 가능한 UI 컴포넌트
+- `vite.config.js` : Vite 설정 파일
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 실행 방법
+1. **레포지토리 클론**
+```sh
+git clone https://github.com/haeunE/Doori_front.git
+cd Doori_front
+```
+2. **패키지 설치**
+```sh
+yarn install  # 또는 npm install
+```
+3. **환경 변수 설정**
+`.env.local` 파일을 생성하고 필요한 API 키 및 설정을 추가합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **개발 서버 실행**
+```sh
+yarn dev  # 또는 npm run dev
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📌 주요 기능
+- 로그인 및 회원가입
+- 독립영화관 예매 기능
+- 영화 평점 및 리뷰 작성
